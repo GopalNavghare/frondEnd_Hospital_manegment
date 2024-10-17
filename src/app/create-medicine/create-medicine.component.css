@@ -1,0 +1,102 @@
+/* Navbar Styles */
+.navbar {
+    padding: 10px 20px;
+    background-color: #343a40; /* Dark background for navbar */
+    border-radius: 5px; /* Rounded corners for the navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase; /* Capitalize brand name */
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5); /* Light border color for the toggle button */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: bold;
+    margin-left: 15px; /* Space between nav links */
+}
+
+.nav-link:hover {
+    color: #ddd !important; /* Lighter color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Container and Form Styles */
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #e3e2ea; /* Light background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.text-center {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Darker text color */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555; /* Slightly muted text color */
+}
+
+.form-control {
+    border: 1px solid #ccc; /* Light border for input fields */
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.form-control:focus {
+    border-color: #28a745; /* Green border on focus */
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.2); /* Light green glow on focus */
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full width for the submit button */
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Darker shade on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 5px 10px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light background for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    font-size: 1.5rem; /* Adjust font size */
+}
+
+/* Navbar Links */
+.nav-link {
+    font-size: 1.1rem; /* Increase font size for better readability */
+}
+
+/* Marquee Styles */
+marquee {
+    color: rgb(86, 86, 86);
+    font-size: 1.1rem; /* Slightly larger font size */
+    font-weight: bold; /* Make text bold */
+}
+
+/* Container Styles */
+.container {
+    margin: auto; /* Center container */
+    padding: 20px;
+    max-width: 1200px; /* Maximum width for larger screens */
+    background-color: #e3e2ea;/* White background for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Heading Styles */
+h2 {
+    color: #343a40; /* Dark color for the heading */
+}
+
+/* Table Styles */
+.table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse; /* Collapse borders for table */
+}
+
+/* Table Header */
+.table-header {
+    background-color: #343a40; /* Dark background for header */
+    color: white; /* White text for header */
+}
+
+/* Table Row Hover Effect */
+.table tbody tr:hover {
+    background-color: #f1f1f1; /* Light gray on hover */
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 15px; /* Increase padding for buttons */
+    font-size: 1rem; /* Uniform button font size */
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Bootstrap danger color */
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Darker on hover */
+}
+
+.btn-info {
+    background-color: #17a2b8; /* Bootstrap info color */
+}
+
+.btn-info:hover {
+    background-color: #138496; /* Darker on hover */
+}
+
+.btn-success {
+    background-color: #28a745; /* Bootstrap success color */
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Darker on hover */
+}
+
+/* Table Fix Head */
+.tableFixHead {
+    overflow-y: auto; /* Enable scrolling if content exceeds */
+    max-height: 400px; /* Maximum height for scrolling */
+}
+
+/* Modal Button Styles */
+.btn-danger[data-toggle="modal"] {
+    margin: 5px; /* Add margin */
+}

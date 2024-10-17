@@ -1,0 +1,29 @@
+.container {
+    border: 2px solid #0bbdcd; /* Border for the container */
+    border-radius: 8px; /* Rounded corners for the container */
+    padding: 20px; /* Space inside the container */
+    background-color: #f9f9f9; /* Light background color */
+    max-width: 400px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+.container label {
+    display: inline-block; /* Keep label inline but stack them vertically */
+    font-weight: bold; /* Make label text bold */
+    margin-bottom: 5px; /* Space between label and next element */
+    color: #333; /* Darker text color */
+}
+
+.container b {
+    font-weight: normal; /* Use normal weight for the content */
+    margin-left: 10px; /* Add some space between label and the content */
+    color: #007BFF; /* Color for content to differentiate it */
+}
+
+.container label::after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid #ddd; /* Add border below each label */
+    margin: 5px 0;
+}
